@@ -42,8 +42,8 @@ import spotipy
 from spotipy.oauth2 import SpotifyClientCredentials
 # Autenticación con Spotify
 sp = spotipy.Spotify(auth_manager=SpotifyClientCredentials(
-    client_id="ef5704f5bf5b45b2bde3bf38d22bb61a",
-    client_secret="91f30723648c43b786d5f78d420fe23f"
+    client_id="12345abcs",
+    client_secret="abcd123344"
 ))
 track_list=[]
 for i in range(0,1000,50):
