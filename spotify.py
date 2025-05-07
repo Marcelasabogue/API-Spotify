@@ -32,7 +32,7 @@ from spotipy.oauth2 import SpotifyClientCredentials
 from datetime import datetime
 import time
 import spotipy
-client_credentials_manager = SpotifyClientCredentials(client_id="ef5704f5bf5b45b2bde3bf38d22bb61a", client_secret="91f30723648c43b786d5f78d420fe23f")
+client_credentials_manager = SpotifyClientCredentials(client_id="12345abcs", client_secret="abcd123344")
 sp = spotipy.Spotify(client_credentials_manager = client_credentials_manager, requests_timeout=30)
 current_year = datetime.now().year
 
